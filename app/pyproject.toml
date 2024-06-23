@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tomorrow-tg-bot"
+version = "0.1.0"
+description = ""
+authors = ["Vyacheslav Molotkov <tykvagdety13@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.8.0"
+pydantic-settings = "^2.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+ruff = "^0.4.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
